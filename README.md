@@ -3,9 +3,9 @@
  
 # How To Use
 > 1. Create MySQL Table with using health_user.sql 
-> 2. Change two **get_url** in main.py, which can be got by Fiddler 
-> 3. Change or Overwrite Cookie in json files' header
-> 4. Change **form_json** to suit your ChaoXing form 
+> 2. Change every **TODO** in main.py 
+> 3. Change or Overwrite JSON files
+> 4. Python it!!! 
  
 # Attention
 
