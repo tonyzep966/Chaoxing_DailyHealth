@@ -89,7 +89,7 @@ class Health:
         form_json[2]["fields"][0]["values"][0]["val"] = self._student_id
         form_json[3]["fields"][0]["values"][0]["val"] = self._name
         form_json[8]["fields"][0]["values"][0]["val"] = self._username
-        form_json[19]["fields"][0]["values"][0]["val"] = "天津科技大学14公寓"
+        form_json[19]["fields"][0]["values"][0]["val"] = ""
         form_content = json.dumps(form_json)
         # print(post_headers["Cookie"])
         post_body["formData"] = form_content
