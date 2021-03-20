@@ -1,0 +1,19 @@
+{
+  "Host": "office.chaoxing.com",
+  "Connection": "keep-alive",
+  "Cache-Control": "max-age=0",
+  "sec-ch-ua": "\",\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\"",
+  "sec-ch-ua-mobile": "?0",
+  "DNT": "1",
+  "Upgrade-Insecure-Requests": "1",
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+  "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+  "Sec-Fetch-Site": "same-origin",
+  "Sec-Fetch-Mode": "navigate",
+  "Sec-Fetch-User": "?1",
+  "Sec-Fetch-Dest": "document",
+  "Referer": "https://office.chaoxing.com/front/web/apps/forms/fore/apply?id=14673&formAppId=&enc=ed9e03b2050df7f56003dc0c0fa226d2&fidEnc=5901ab09a9ed3537",
+  "Accept-Encoding": "gzip, deflate, br",
+  "Accept-Language": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7",
+  "Cookie": ""
+}

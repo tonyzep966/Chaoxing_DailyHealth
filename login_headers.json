@@ -1,0 +1,18 @@
+{
+  "Host": "passport2.chaoxing.com",
+  "Connection": "keep-alive",
+  "Content-Length": "124",
+  "Accept": "application/json, text/javascript, */*; q=0.01",
+  "DNT": "1",
+  "X-Requested-With": "XMLHttpRequest",
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
+  "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+  "Origin": "https://passport2.chaoxing.com",
+  "Sec-Fetch-Site": "same-origin",
+  "Sec-Fetch-Mode": "cors",
+  "Sec-Fetch-Dest": "empty",
+  "Referer": "https://passport2.chaoxing.com/login?newversion=true&refer=http%3A%2F%2Foffice.chaoxing.com%2Ffront%2Fweb%2Fapps%2Fforms%2Ffore%2Fapply%3Bjsessionid%3DCF9DB624BC18FDA6C3AAE666A566DF2D.oaapp_web_8_101%3Fid%3D1913%26formAppId%3D%26enc%3Df2290a10c0bcc60df8557d2d76bdf287%26fidEnc%3D5901ab09a9ed3537",
+  "Accept-Encoding": "gzip, deflate, br",
+  "Accept-Language": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7",
+  "Cookie": "JSESSIONID=673D70C76CA635EB9B8BD02798C096C3; route=67bdf1b7c2863f03cda3874691c47fc3"
+}

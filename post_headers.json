@@ -1,0 +1,15 @@
+{
+  "Host": "office.chaoxing.com",
+  "Connection": "keep-alive",
+  "Content-Length": "54248",
+  "Accept": "application/json, text/javascript, */*; q=0.01",
+  "DNT": "1",
+  "X-Requested-With": "XMLHttpRequest",
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+  "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+  "Origin": "http://office.chaoxing.com",
+  "Referer": "http://office.chaoxing.com/front/web/apps/forms/fore/apply?id=14673&formAppId=&enc=ed9e03b2050df7f56003dc0c0fa226d2&fidEnc=5901ab09a9ed3537",
+  "Accept-Encoding": "gzip, deflate",
+  "Accept-Language": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7",
+  "Cookie": "lv=2; _uid=105702162; uf=b2d2c93beefa90dcd989ca7e00ed3d898ddc65fa8351e5d1d7d4049005bfb884ac547f0ab78dc2af9fd7b66ba372ffe6913b662843f1f4ad6d92e371d7fdf6447739bfac73b3072efd68be96b6183b1a0d63d654bd3cebfaa7e1bcf45a48a62dc4850239b6fe72b2; _d=1615878120927; UID=105702162; vc=4E61A5F0ADF8EE51424FCF60A0F7F9B0; vc2=22450F9BE94E84E54B86B1C1D44BC289; vc3=Bl46LM7Oxn9gBOE14Zqo%2BxOP5q8SccKwWULD2pJIskOTX8l98A56AkQaQI1Ag9fUpSk%2FMPhwm87tpeS%2BAN%2BfDVmfuRhnSJWeZhmzjPWoIsIdIa0nIGOYP3NJELXmsUWAzIcHk0z4lbd1sX5JDbwkkUQKUdkcAjuudZ4lCGXFg9k%3D3144ff0fc6225f185b4e86a851ead596; xxtenc=5257bbd0518cee562c0d2cc7cb45a879; _industry=5; fanyamoocs=2ED10CBD72155D64E4F8DE7C41ACEAB4; isfyportal=1; spaceFid=121890; fid=121890; spaceRoleId=\"\""
+}
