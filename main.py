@@ -30,7 +30,8 @@ class Health:
         password = self._password
         bytes_password = password.encode("utf-8")
         str_password = bytes.decode(base64.b64encode(bytes_password))
-        # print(str_password)
+
+        # Get Major User Cookie
         login_body = json.loads(content)
         login_body["uname"] = self._username
         login_body["password"] = str_password
@@ -42,8 +43,9 @@ class Health:
         self._cookie = cookie
         print(self._name)
 
+    # Get "oa_xxx" series cookie
     def _get_oa(self):
-        get_url = ""
+        get_url = ""  # TODO: get_url you need to change
         with open('get_oa_header.json', 'r', encoding='utf-8') as f:
             content = f.read()
         get_headers = json.loads(content)
@@ -55,15 +57,15 @@ class Health:
         cookie = pattern.sub("", cookie).replace(": ", "=").replace(",", ";")
         self._cookie += ";" + cookie
 
+    # Get check code, which you will need to post form
     def _get_check_code(self):
-        get_url = ""
+        get_url = ""  # TODO: get_url you need to change. This is the url of page where actual form at
         with open('get_checkcode_headers.json', 'r', encoding='utf-8') as f:
             content = f.read()
         get_headers = json.loads(content)
         get_headers["Cookie"] = self._cookie
         resp = self._session.get(url=get_url, headers=get_headers)
         check_code = re.findall(r"checkCode.*'(.*)'", resp.text)
-        # print(check_code)
         return check_code
 
     def _post_form(self):
@@ -108,9 +110,9 @@ if __name__ == '__main__':
     conn = pymysql.connect(
         host="localhost",
         user="root",
-        password="1254467841dsl",
+        password="",  # TODO: Your MySQL Password
         port=3306,
-        database="test",
+        database="",  # TODO: MySQL Database
         charset="utf8"
     )
     cursor = conn.cursor()
