@@ -43,7 +43,7 @@ class Health:
         print(self._name)
 
     def _get_oa(self):
-        get_url = "https://office.chaoxing.com/front/web/apps/forms/fore/apply?id=14673&formAppId=&enc=ed9e03b2050df7f56003dc0c0fa226d2&fidEnc=5901ab09a9ed3537"
+        get_url = ""
         with open('get_oa_header.json', 'r', encoding='utf-8') as f:
             content = f.read()
         get_headers = json.loads(content)
@@ -56,7 +56,7 @@ class Health:
         self._cookie += ";" + cookie
 
     def _get_check_code(self):
-        get_url = "https://office.chaoxing.com/front/web/apps/forms/fore/apply?id=14673&formAppId=&enc=ed9e03b2050df7f56003dc0c0fa226d2&fidEnc=5901ab09a9ed3537"
+        get_url = ""
         with open('get_checkcode_headers.json', 'r', encoding='utf-8') as f:
             content = f.read()
         get_headers = json.loads(content)
